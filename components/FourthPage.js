@@ -1,4 +1,4 @@
-const Forthpage = () => {
+const FourthPage = () => {
     return(
          <div className="forthpage-container" id="Roadmap">
             
@@ -6,4 +6,4 @@ const Forthpage = () => {
          </div>
     )
 }
-export default Forthpage
+export default FourthPage

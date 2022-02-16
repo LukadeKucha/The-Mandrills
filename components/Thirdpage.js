@@ -1,8 +1,8 @@
-const Thirdpage = () => {
+const ThirdPage = () => {
     return(
          <div className="thirdpage-container" id="a">
 
          </div>
     )
 }
-export default Thirdpage
+export default ThirdPage

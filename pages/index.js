@@ -1,8 +1,8 @@
 import React from "react";
 import FirstPage from "../components/FirstPage";
+import ThirdPage from "../components/Thirdpage";
 import SecondPage from "../components/SecondPage";
-import Thirdpage from "../components/ThirdPage";
-import Forthpage from "../components/ForthPage";
+import FourthPage from "../components/FourthPage";
 import FifthPage from "../components/FifthPage";
 import SixthPage from "../components/SixthPage";
 import Navbar from "../components/Navbar";
@@ -15,7 +15,7 @@ export default function Index() {
       <FirstPage />
       <SecondPage />
       <ThirdPage />
-      <ForthPage />
+      <FourthPage />
       <FifthPage />
       <SixthPage />
     </div>
