@@ -44,7 +44,7 @@ body::-webkit-scrollbar {
   opacity: 0.8;
   width: 100vw;
   height: 7vh;
-  background-color: #166416;
+  background-color: #090808;
   color: black;
   position: fixed;
   top: 0;
@@ -68,6 +68,7 @@ svg{
   margin-left: 20px;
 }
 .navbar-logo img {
+  border-radius: 50px;
   width: 50px;
   height: 50px;
   margin-left: 30px;
@@ -138,7 +139,7 @@ svg{
 }
 
 svg {
-  font-size: 150px;
+  font-size: 100px;
   margin-top: 50px;
   margin-left: 110px;
 }
@@ -150,7 +151,7 @@ svg {
   margin-top: 200px;
 }
 .home-links {
-  margin-left: 650px;
+  margin-left: 580px;
 }
 
 
@@ -202,6 +203,59 @@ svg {
  /* responsive */
  @media only screen and (max-width: 600px) 
  {
+  .navbar-wrapper{
+
+    padding-right: 60px;
+    opacity: 0.8;
+    width: 100vw;
+    height: 7vh;
+    background-color: #166416;
+    color: black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    display: flex;
+    font-family: 'Josefin Sans', sans-serif;
+    flex-direction: row;
+  
+  }
+  .navbar-container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+  }
+  svg{
+    padding-left: 10px;
+  }
+  .navbar-logo{
+    margin-left: 20px;
+  }
+  .navbar-logo img {
+    width: 50px;
+    height: 50px;
+    margin-left: 30px;
+    margin-top: 7px;
+  
+  }
+  .navbar-menu ul{
+    height: 100%;  
+    display: flex;
+    flex-direction: row;
+  }
+  .navbar-menu ul li{
+    list-style: none;
+    margin-top: 4vh;
+    margin-left: 2vw;
+    font-size: 2vh;
+    font-family: var(--font);
+    color: #000000;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+  } 
+  
   .Container{ 
     width: 100vw;
     height: 560vh;

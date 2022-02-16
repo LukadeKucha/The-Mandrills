@@ -1,8 +1,9 @@
 import { BsDiscord } from 'react-icons/bs';
 import { BsTwitter } from 'react-icons/bs';
+import { BsInstagram } from 'react-icons/bs'
 const FirstPage = () => {
     return(
-        <div className="firstpage-container" id = 'home'>
+        <div className="firstpage-container" id = 'welcome'>
            <div className="h-text">
                <p>
                    Welcome to The Mandrills
@@ -14,6 +15,9 @@ const FirstPage = () => {
                     </a>
                     <a href="https://twitter.com/TheMAndrillsWN?t=cCblJhVkddwLIllEwH9QsQ&s=09">
                       <BsTwitter />
+                    </a>
+                    <a href=''>
+                        <BsInstagram />
                     </a>
                 </div>
         </div>
