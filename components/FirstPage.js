@@ -16,7 +16,7 @@ const FirstPage = () => {
                     <a href="https://twitter.com/TheMAndrillsWN?t=cCblJhVkddwLIllEwH9QsQ&s=09">
                       <BsTwitter />
                     </a>
-                    <a href=''>
+                    <a href='https://www.instagram.com/the_mandrilas/'>
                         <BsInstagram />
                     </a>
                 </div>

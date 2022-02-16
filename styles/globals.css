@@ -9,7 +9,7 @@ a {
   font-family: var(--font);
 }
 a:hover{
-  color: rgb(1, 26, 1);
+  color: rgb(16, 209, 16);
 }
 html{
   scroll-behavior: smooth;
@@ -79,6 +79,10 @@ svg{
   height: 100%;  
   display: flex;
   flex-direction: row;
+}
+.navbar-menu {
+  margin-right: 60px;
+  margin-top: -10px;
 }
 .navbar-menu ul li{
   list-style: none;
