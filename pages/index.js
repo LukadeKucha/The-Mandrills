@@ -1,12 +1,12 @@
 import React from "react";
 import FirstPage from "../components/FirstPage";
 import SecondPage from "../components/SecondPage";
-import Thirdpage from "../components/Thirdpage";
-import Forthpage from "../components/Forthpage";
+import Thirdpage from "../components/ThirdPage";
+import Forthpage from "../components/ForthPage";
 import FifthPage from "../components/FifthPage";
 import SixthPage from "../components/SixthPage";
 import Navbar from "../components/Navbar";
-export default function Home() {
+export default function Index() {
 
   return(    
     <>
@@ -14,8 +14,8 @@ export default function Home() {
       <Navbar />
       <FirstPage />
       <SecondPage />
-      <Thirdpage />
-      <Forthpage />
+      <ThirdPage />
+      <ForthPage />
       <FifthPage />
       <SixthPage />
     </div>
