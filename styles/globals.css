@@ -199,3 +199,14 @@ svg {
   font-size: 35px; */
   /* margin-left: 537px; */
   /* margin-right: 100px; */
+ /* responsive */
+ @media only screen and (max-width: 600px) 
+ {
+  .Container{ 
+    width: 100vw;
+    height: 560vh;
+    background-image: url('/photo.png');
+    background-repeat: no-repeat;
+    background-size: 600px;   
+  }
+}
