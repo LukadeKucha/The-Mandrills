@@ -9,7 +9,7 @@ a {
   font-family: var(--font);
 }
 a:hover{
-  color: rgb(16, 209, 16);
+  color: rgb(80, 71, 212);
 }
 html{
   scroll-behavior: smooth;
