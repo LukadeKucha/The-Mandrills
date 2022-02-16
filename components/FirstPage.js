@@ -9,7 +9,7 @@ const FirstPage = () => {
                </p>
            </div>
            <div className="home-links">
-                    <a href="#home">
+                    <a href="https://discord.gg/tbsBgSct6K">
                         <BsDiscord />                        
                     </a>
                     <a href="https://twitter.com/TheMAndrillsWN?t=cCblJhVkddwLIllEwH9QsQ&s=09">

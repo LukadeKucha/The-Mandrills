@@ -207,6 +207,6 @@ svg {
     height: 560vh;
     background-image: url('/photo.png');
     background-repeat: no-repeat;
-    background-size: 600px;   
+    background-size: 375px;   
   }
 }
