@@ -1,18 +1,25 @@
-import React from 'react'
-import Link from 'next/link'
-const index = () => {
-  return (
-    <div className="main-wrap">   
-    <div className='b-photo'> 
-         <h2 className="home-title">
-        <p>Welcome to The Mandrills</p>        
-      </h2>
-      <div className="main-buttons">
-      <Link href="/en"><a>Start journy</a></Link>      
-      </div>
-      </div>
+import React from "react";
+import FirstPage from "../components/FirstPage";
+import SecondPage from "../components/SecondPage";
+import Thirdpage from "../components/Thirdpage";
+import Forthpage from "../components/Forthpage";
+import FifthPage from "../components/FifthPage";
+import SixthPage from "../components/SixthPage";
+import Navbar from "../components/navbar";
+export default function Home() {
+
+  return(    
+    <>
+    <div className="Container">
+      <Navbar />
+      <FirstPage />
+      <SecondPage />
+      <Thirdpage />
+      <Forthpage />
+      <FifthPage />
+      <SixthPage />
     </div>
+      </>
   )
 }
-
-export default index
+export default Home
