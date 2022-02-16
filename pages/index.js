@@ -5,7 +5,7 @@ import Thirdpage from "../components/Thirdpage";
 import Forthpage from "../components/Forthpage";
 import FifthPage from "../components/FifthPage";
 import SixthPage from "../components/SixthPage";
-import Navbar from "../components/navbar";
+import Navbar from "../components/Navbar";
 export default function Home() {
 
   return(    
