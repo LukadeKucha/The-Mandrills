@@ -212,7 +212,7 @@ svg {
     padding-right: 60px;
     opacity: 0.8;
     width: 120vw;
-    height: 5vh;
+    height: 4vh;
     background-color: #166416;
     color: black;
     position: fixed;
@@ -238,7 +238,7 @@ svg {
     width: 20px;
     height: 20px;
     margin-left: 20px;
-    margin-top: 12px;
+    margin-top: 8px;
   
   }
   .navbar-menu ul{
