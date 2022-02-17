@@ -261,10 +261,10 @@ svg {
   
   .Container{ 
     width: 100vw;
-    height: 125vh;
+    height: 123vh;
     background-image: url('/photo.png');
     background-repeat: no-repeat;
-    background-size: 375px;   
+    background-size: 390px;   
   }
   .h-text{
   font-size: 15px;
