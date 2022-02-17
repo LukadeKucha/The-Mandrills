@@ -212,7 +212,7 @@ svg {
     padding-right: 60px;
     opacity: 0.8;
     width: 120vw;
-    height: 7vh;
+    height: 5vh;
     background-color: #166416;
     color: black;
     position: fixed;
@@ -230,17 +230,17 @@ svg {
     width: 100%;
     justify-content: space-between;
   }
-  svg{
-    padding-left: 10px;
+  .navbar-menu{
+    padding-right: 30px;
   }
-  .navbar-logo{
+   .navbar-logo{
     margin-left: 20px;
   }
   .navbar-logo img {
     width: 20px;
     height: 20px;
     margin-left: 20px;
-    margin-top: 16px;
+    margin-top: 12px;
   
   }
   .navbar-menu ul{
@@ -251,7 +251,8 @@ svg {
   .navbar-menu ul li{
     list-style: none;
     margin-top: 4vh;
-    margin-left: 5px;
+    margin-right: 13px;
+    margin-top: 3vh;
     font-size: 1vh;
     font-family: var(--font);
     color: #000000;
@@ -265,13 +266,24 @@ svg {
     height: 125vh;
     background-image: url('/photo.png');
     background-repeat: no-repeat;
-    background-size: 375px;   
+    background-size: 600px;   
+  }
+  .h-text{
+  font-size: 23px;
+  margin-left: 150px;
+  margin-top: 70px;
+
+  }
+  svg{
+    font-size: 30px;
+    margin-left: 10px;
+    padding-left: 10px;
   }
   .home-links{
     height: 100px;
-    width: 100px;
-    margin-left: 20px;
-    margin-top: 20px;
+    width: 150px;
+    margin-left: 20vh;
+  
   }
   .firstpage-container{
     height: 220px;
