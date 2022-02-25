@@ -1,31 +1,26 @@
-
-
 a {
   padding-left: 10px;
   color: white;
   text-decoration: none;
   font-family: var(--font);
 }
-a:hover{
+a:hover {
   color: rgb(80, 71, 212);
 }
-html{
+html {
   scroll-behavior: smooth;
-
 }
 body::-webkit-scrollbar {
-	width: .6rem !important;
-  }
-  
-  body::-webkit-scrollbar-thumb {
+  width: 0.6rem !important;
+}
 
-	background-color: #5a47ca  !important;
-  }
-  
-  body::-webkit-scrollbar-track {
-	background: #080101 !important;
-  }
+body::-webkit-scrollbar-thumb {
+  background-color: #5a47ca !important;
+}
 
+body::-webkit-scrollbar-track {
+  background: #080101 !important;
+}
 
 * {
   padding: 0;
@@ -36,7 +31,8 @@ body::-webkit-scrollbar {
 
 /*Navbar*/
 
-.navbar-wrapper {  padding-right: 60px;
+.navbar-wrapper {
+  padding-right: 60px;
   width: 100vw;
   height: 37vh;
   background-color: black;
@@ -46,50 +42,49 @@ body::-webkit-scrollbar {
   left: 0;
   z-index: 10;
   display: flex;
-  font-family: 'Aldrich';
+  font-family: "Aldrich";
   flex-direction: row;
 }
 
-.navbar-container{
+.navbar-container {
   display: flex;
   flex-direction: row;
   width: 100%;
   justify-content: space-between;
 }
-svg{
+svg {
   padding-left: 10px;
 }
-.navbar-text p{
+.navbar-text p {
   position: absolute;
-width: 184px;
-height: 68px;
-left: 29vw;
-top: 86px;
-font-family: 'Aldrich';
-font-style: normal;
-font-weight: normal;
-font-size: 64px;
-line-height: 63px;
+  width: 184px;
+  height: 68px;
+  left: 29vw;
+  top: 86px;
+  font-family: "Aldrich";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 63px;
 
-color: #FFFFFF;
-
+  color: #ffffff;
 }
-.navbar-text a{
+.navbar-text a {
   position: absolute;
   width: 405px;
   height: 68px;
   left: 34vw;
   top: 167px;
-  
+
   font-family: Aldrich;
   font-style: normal;
   font-weight: normal;
   font-size: 64px;
   line-height: 63px;
-  
-  color: #FFFFFF;
+
+  color: #ffffff;
 }
-.navbar-logo{
+.navbar-logo {
   margin-left: 20px;
 }
 .navbar-logo img {
@@ -97,12 +92,11 @@ color: #FFFFFF;
   width: 294px;
   height: 294px;
   left: 15vw;
-  top: 20px;   
+  top: 20px;
   border-radius: 147px;
-
 }
-.navbar-menu ul{
-  height: 100%;  
+.navbar-menu ul {
+  height: 100%;
   display: flex;
   flex-direction: row;
 }
@@ -110,7 +104,7 @@ color: #FFFFFF;
   margin-right: 60px;
   margin-top: -10px;
 }
-.navbar-menu ul li{
+.navbar-menu ul li {
   list-style: none;
   margin-top: 4vh;
   margin-left: 2vw;
@@ -120,20 +114,20 @@ color: #FFFFFF;
   font-weight: 700;
   text-transform: uppercase;
   cursor: pointer;
-} 
-.navbar-menu ul li a{
+}
+.navbar-menu ul li a {
   width: 69px;
-height: 12px;
-left: 0px;
-top: 0px;
+  height: 12px;
+  left: 0px;
+  top: 0px;
 
-font-family: Aldrich;
-font-style: normal;
-font-weight: normal;
-font-size: 18px;
-line-height: 18px;
+  font-family: Aldrich;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 18px;
 
-color: #FFFFFF;
+  color: #ffffff;
 }
 
 /* Sections */
@@ -219,29 +213,28 @@ color: #FFFFFF;
   box-shadow: inset 12px 11px 6px rgb(0 0 0 / 25%);
   border-radius: 60px;
 }
-.textarea2 p{
+.textarea2 p {
   position: absolute;
-height: 25px;
-left: 147px;
-right: 126px;
-top: calc(50% - 25px/2 - 5px);
+  height: 25px;
+  left: 147px;
+  right: 126px;
+  top: calc(50% - 25px / 2 - 5px);
 
-font-family: 'Aldrich';
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-line-height: 23px;
-color: #FFFFFF;
+  font-family: "Aldrich";
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 23px;
+  color: #ffffff;
 }
-.hidden{
+.hidden {
   display: none;
   height: 30px;
   width: 338px;
 }
-.textarea2:hover + .hidden{
+.textarea2:hover + .hidden {
   display: block;
   color: red;
-
 }
 
 .secondpage-container {
@@ -280,28 +273,28 @@ color: #FFFFFF;
   border-radius: 60px;
 }
 
-.textarea4 p{
+.textarea4 p {
   position: absolute;
-width: 136px;
-height: 50px;
-left: 269px;
-top: 214px;
+  width: 136px;
+  height: 50px;
+  left: 269px;
+  top: 214px;
 
-font-family: Aldrich;
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-line-height: 23px;
+  font-family: Aldrich;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 23px;
 
-color: #FFFFFF;
+  color: #ffffff;
 }
 
-.thirdpage-container{
+.thirdpage-container {
   width: 1440px;
   left: 12vw;
   position: relative;
   border-bottom: 1px solid white;
-  height: 77vh;  
+  height: 77vh;
 }
 
 .textarea5 p {
@@ -333,28 +326,27 @@ color: #FFFFFF;
   border-radius: 60px;
 }
 
-.textarea6 p{
+.textarea6 p {
   position: absolute;
-width: 136px;
-height: 50px;
-left: 249px;
-top: 214px;
+  width: 136px;
+  height: 50px;
+  left: 249px;
+  top: 214px;
 
-font-family: Aldrich;
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-line-height: 23px;
+  font-family: Aldrich;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 23px;
 
-color: #FFFFFF;
+  color: #ffffff;
 }
 
-.forthpage-container{
+.forthpage-container {
   width: 1440px;
   left: 12vw;
   position: relative;
   height: 215vh;
-
 }
 .textarea7 p {
   position: absolute;
@@ -385,45 +377,41 @@ color: #FFFFFF;
   box-shadow: inset 12px 11px 6px rgb(0 0 0 / 25%);
   border-radius: 60px;
 }
-.textarea8 p{
-position: absolute;
-width: 54px;
-height: 26px;
-left: 277px;
-top: 371px;
-font-family: Aldrich;
-font-style: normal;
-font-weight: normal;
-font-size: 24px;
-line-height: 23px;
+.textarea8 p {
+  position: absolute;
+  width: 54px;
+  height: 26px;
+  left: 277px;
+  top: 371px;
+  font-family: Aldrich;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 23px;
 
-color: #FFFFFF;
-
+  color: #ffffff;
 }
 
-
-.Container{ 
+.Container {
   background-color: black;
   width: 100vw;
   height: 474vh;
- 
 }
-.image{
-  background-image: url('/photo.png');
+.image {
+  background-image: url("/photo.png");
   background-repeat: no-repeat;
-  background-size: cover;  
+  background-size: cover;
   position: absolute;
-width: 1440px;
-height: 437vh;
-left: 12vw;
-top: 345px;
-border-radius: 56px;
+  width: 1440px;
+  height: 437vh;
+  left: 12vw;
+  top: 345px;
+  border-radius: 56px;
 }
 
 svg {
   color: black;
   font-size: 38px;
- 
 }
 /* start page */
 
@@ -438,12 +426,12 @@ svg {
   line-height: 18px;
 }
 
-.main-wrap{
+.main-wrap {
   width: 100vw;
   height: 1024px;
   background-color: black;
 }
-.b-video{
+.b-video {
   width: 100vw;
   height: 452px;
 }
@@ -451,58 +439,57 @@ svg {
   margin-left: 200px;
   width: 100vw;
   height: 572px;
-  background-image: url('/start.png');
+  background-image: url("/start.png");
   background-repeat: no-repeat;
-
 }
 
-.main-buttons{
+.main-buttons {
   position: absolute;
   top: 808px;
   margin-left: 30vw;
-width: 308px;
-height: 74px;
-background: rgba(255, 255, 255, 0.7);
-border-radius: 60px;
+  width: 308px;
+  height: 74px;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 60px;
 }
 
-.main-buttons a{ 
+.main-buttons a {
   width: 202px;
   height: 25px;
   left: 53px;
   top: 27px;
-  
+
   font-family: Aldrich;
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
   line-height: 23px;
-  
+
   color: #000000;
 }
-.home-gif{
+.home-gif {
   margin-top: 13vh;
-margin-left: 57vw;
-width: 274px;
-height: 315px;
-background: url('/gif.png');
-border: 3px solid rgba(0, 0, 0, 0.52);
-box-sizing: border-box;
-filter: drop-shadow(-14px -8px 0px rgba(0, 0, 0, 0.25));
-border-radius: 132px;
+  margin-left: 57vw;
+  width: 274px;
+  height: 315px;
+  background: url("/gif.png");
+  border: 3px solid rgba(0, 0, 0, 0.52);
+  box-sizing: border-box;
+  filter: drop-shadow(-14px -8px 0px rgba(0, 0, 0, 0.25));
+  border-radius: 132px;
 }
-.home-links{
-margin-left: 55vw;
-margin-top: 5vh;
+.home-links {
+  margin-left: 55vw;
+  margin-top: 5vh;
 }
 
-.home-links ul{
-  height: 100%;  
+.home-links ul {
+  height: 100%;
   display: flex;
   flex-direction: row;
 }
 
-.home-links ul li{
+.home-links ul li {
   list-style: none;
   margin-top: 4vh;
   margin-left: 2vw;
@@ -512,4 +499,4 @@ margin-top: 5vh;
   font-weight: 700;
   text-transform: uppercase;
   cursor: pointer;
-} 
+}

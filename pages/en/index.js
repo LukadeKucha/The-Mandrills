@@ -4,20 +4,16 @@ import ThirdPage from "../../components/Thirdpage";
 import SecondPage from "../../components/SecondPage";
 import FourthPage from "../../components/FourthPage";
 import Navbar from "../../components/Navbar";
+
 export default function Home() {
-
-  return(    
-    <>
+  return (
     <div className="Container">
-      <div className="image">
-
-      </div>
+      <div className="image" />
       <Navbar />
       <FirstPage />
       <SecondPage />
       <ThirdPage />
-      <FourthPage />  
+      <FourthPage />
     </div>
-      </>
-  )
+  );
 }
