@@ -9,20 +9,21 @@ const WelcomePage = () => {
   return (
     <div className={styles.welcomePageWrapper}>
       <div className={styles.videoSection}>Video Section</div>
-      <div className={styles.photoSection}>
-        {/* <h2 className="home-text">
-          TMWN is a collection of 4000 THE MANDRILL NFTs—unique digital
-          collectibles living on the Solana blockchain. Your Mandrills doubles
-          as your WN membership card, and grants access to members-only
-          benefits, the first of which is access to JUNGLE, a collaborative
-          graffiti board. Future areas and perks can be unlocked by the
-          community through roadmap activation.
-        </h2> */}
 
-        <div className={styles.forSymmetric} />
+      <div className={styles.photoSection}>
+        <div className={styles.forSymmetric}>
+          {/* <h2 className="home-text">
+            TMWN is a collection of 4000 THE MANDRILL NFTs—unique digital
+            collectibles living on the Solana blockchain. Your Mandrills doubles
+            as your WN membership card, and grants access to members-only
+            benefits, the first of which is access to JUNGLE, a collaborative
+            graffiti board. Future areas and perks can be unlocked by the
+            community through roadmap activation.
+          </h2> */}
+        </div>
 
         <div className={styles.joutneyBtnWrapper}>
-          <Link href="/en" passHref>
+          <Link href="/home" passHref>
             <button className={styles.startJoutneyBtn}>Start Journy</button>
           </Link>
         </div>
