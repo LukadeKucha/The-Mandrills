@@ -1,8 +1,12 @@
+import Head from "next/head";
 import "../styles/globals.css";
 
 function MyApp({ Component, pageProps }) {
   return (
     <>
+      <Head>
+        <title>the mandrills</title>
+      </Head>
       <Component {...pageProps} />
     </>
   );

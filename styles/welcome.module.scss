@@ -1,0 +1,78 @@
+.welcomePageWrapper {
+  width: 100vw;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.videoSection {
+  width: 100%;
+  height: 70vh;
+  background-color: var(--bgc);
+}
+
+.photoSection {
+  width: 100%;
+  height: 100vh;
+  background: url(/images/start.png) no-repeat center;
+  background-size: cover;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  .forSymmetric {
+    flex: 1;
+  }
+
+  .joutneyBtnWrapper {
+    height: 315px;
+    display: flex;
+    justify-content: center;
+    flex: 1;
+
+    .startJoutneyBtn {
+      font-size: 24px;
+      line-height: 23px;
+      width: 300px;
+      padding: 25px 53px;
+      background-color: rgba(255, 255, 255, 0.7);
+      border-radius: 60px;
+      align-self: flex-end;
+
+      &:hover {
+        background-color: rgba(255, 255, 255, 1);
+      }
+    }
+  }
+
+  .mandrillsGif {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+
+  .sicialIcons {
+    height: 23px;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    right: 150px;
+    bottom: 50px;
+
+    li {
+      list-style: none;
+
+      &:not(:last-child) {
+        margin-right: 23px;
+      }
+
+      a {
+        font-size: 2rem;
+        display: flex;
+        align-items: center;
+      }
+    }
+  }
+}
