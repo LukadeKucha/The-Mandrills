@@ -2,6 +2,7 @@
 
 :root {
   --bgc: black;
+  font-size: 16px;
 }
 
 * {

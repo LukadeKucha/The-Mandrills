@@ -1,2 +1,11 @@
 .HomePageWrapper {
+  width: 100vw;
+  background-color: var(--bgc);
+
+  // XXX delete
+  color: red;
+
+  .backgroundSection {
+    width: 100%;
+  }
 }
