@@ -1,5 +1,6 @@
 .welcomePageWrapper {
   width: 100vw;
+  height: 100vh;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -7,13 +8,13 @@
 
 .videoSection {
   width: 100%;
-  height: 70vh;
+  height: 45vh;
   background-color: var(--bgc);
 }
 
 .photoSection {
   width: 100%;
-  height: 100vh;
+  height: 55vh;
   background: url(/images/welcome-background.png) no-repeat center;
   background-size: cover;
   display: flex;
@@ -21,7 +22,20 @@
   align-items: center;
 
   .forSymmetric {
+    display: flex;
+    justify-content: center;
     flex: 1;
+
+    h1 {
+      font-size: 24px;
+      line-height: 23px;
+      width: 230px;
+      height: 272px;
+      margin: 0;
+      padding: 57px 21px;
+      background: rgba(255, 255, 255, 0.77);
+      border-radius: 60px;
+    }
   }
 
   .joutneyBtnWrapper {

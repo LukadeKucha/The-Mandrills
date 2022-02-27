@@ -12,14 +12,10 @@ const WelcomePage = () => {
 
       <div className={styles.photoSection}>
         <div className={styles.forSymmetric}>
-          {/* <h2 className="home-text">
-            TMWN is a collection of 4000 THE MANDRILL NFTs—unique digital
-            collectibles living on the Solana blockchain. Your Mandrills doubles
-            as your WN membership card, and grants access to members-only
-            benefits, the first of which is access to JUNGLE, a collaborative
-            graffiti board. Future areas and perks can be unlocked by the
-            community through roadmap activation.
-          </h2> */}
+          <h1>
+            A limited NFT collection of old world mandrills. Join in and be wild
+            primate with us. You sent
+          </h1>
         </div>
 
         <div className={styles.joutneyBtnWrapper}>
