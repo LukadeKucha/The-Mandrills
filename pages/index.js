@@ -4,10 +4,15 @@ import Image from "next/image";
 import styles from "/styles/welcome.module.scss";
 
 import { BsDiscord, BsTwitter, BsInstagram } from "react-icons/bs";
+import Head from "next/head";
 
 const WelcomePage = () => {
   return (
     <div className={styles.welcomePageWrapper}>
+      <Head>
+        <title>the mandrills - welcome</title>
+      </Head>
+
       <div className={styles.videoSection}>Video Section</div>
 
       <div className={styles.photoSection}>
