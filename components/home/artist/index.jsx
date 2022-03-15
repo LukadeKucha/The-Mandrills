@@ -32,7 +32,7 @@ function ArtistSection() {
           </p>
           <UnvisibleText
             beforeHover="History"
-            size={{ width: "365px", height: "320px" }}
+            size={{ width: "22.5rem", height: "20rem" }}
           >
             For centuries, serenity reigned in nature. The MANDRILLS were
             controlled and observed in this place, but suddenly a great mental
