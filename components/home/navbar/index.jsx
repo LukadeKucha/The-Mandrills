@@ -16,16 +16,10 @@ function HomeNavbar() {
 
       <div className={styles.sectionsList}>
         <div className={styles.column}>
-          <div>NFT’S</div>
-          <div>ROADMAP</div>
-          <div>WN</div>
-        </div>
-        <div className={styles.column}>
-          <div>“The Mandrill Game”</div>
-          <div>TMMS</div>
-        </div>
-        <div className={styles.column}>
-          <div>FAQ</div>
+          <button>NFT’S</button>
+          <button>ROADMAP</button>
+          <button>WN</button>
+          <button>FAQ</button>
         </div>
       </div>
     </div>

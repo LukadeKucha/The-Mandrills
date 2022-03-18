@@ -15,6 +15,7 @@
 
   .afterHover {
     display: none;
+    text-align: left;
   }
 
   &:hover {
@@ -23,7 +24,6 @@
     }
     .afterHover {
       display: block;
-      text-align: left;
     }
   }
 }
