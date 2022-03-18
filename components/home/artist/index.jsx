@@ -1,4 +1,4 @@
-import UnvisibleText from "../unvisible-text-component";
+import UnvisibleText from "../invisible-text-component";
 import styles from "./styles.module.scss";
 
 function ArtistSection() {
@@ -32,7 +32,8 @@ function ArtistSection() {
           </p>
           <UnvisibleText
             beforeHover="History"
-            size={{ width: "22.5rem", height: "20rem" }}
+            size={{ width: "22.5rem", height: "20rem", paddingLeft: "45px" }}
+            bgi={"/images/historyBg.png"}
           >
             For centuries, serenity reigned in nature. The MANDRILLS were
             controlled and observed in this place, but suddenly a great mental
