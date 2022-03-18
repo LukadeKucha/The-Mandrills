@@ -11,13 +11,12 @@
   }
 
   .fullArtist {
-    height: 31.6rem;
+    // height: 31.6rem;
     display: flex;
     justify-content: space-between;
 
     .halfArtist {
       width: 48%;
-      height: 100%;
       position: relative;
 
       img {
