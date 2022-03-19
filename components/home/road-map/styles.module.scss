@@ -1,0 +1,32 @@
+.roadMapSection {
+  width: 100%;
+  height: 61.25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  .roadMapTitle {
+    text-align: center;
+  }
+  .textsWrapper {
+    margin-top: 10rem;
+    display: flex;
+    justify-content: space-between;
+
+    div {
+      // padding: 1rem;
+      ul {
+        li {
+          &:not(:last-child) {
+            margin-bottom: 1rem;
+          }
+        }
+      }
+      &:not(:last-child) {
+        ul {
+          padding-right: 0.625rem;
+        }
+      }
+    }
+  }
+}
