@@ -24,7 +24,7 @@ const WelcomePage = () => {
           </h1>
         </div>
 
-        <div className={styles.joutneyBtnWrapper}>
+        <div className={styles.journeyBtnWrapper}>
           <Link href="/home" passHref>
             <button className={styles.startJoutneyBtn}>Start Journy</button>
           </Link>

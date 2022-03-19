@@ -4,7 +4,9 @@ import styles from "./styles.module.scss";
 function WildNetworkSection() {
   return (
     <div className={styles.networkSection}>
-      <h1 className={styles.networkTitle}>Wild Network</h1>
+      <h1 className={`homeSectionTitle ${styles.networkTitle}`}>
+        Wild Network
+      </h1>
       <InvisibleText
         beforeHover="About Us"
         size={{ width: "45.625rem", height: "38.25rem" }}

@@ -4,22 +4,22 @@ import styles from "./styles.module.scss";
 function ArtistSection() {
   return (
     <div className={styles.artistWrapper}>
-      <h1 className={styles.artistTitle}>Artist</h1>
+      <h1 className={`homeSectionTitle ${styles.artistTitle}`}>Artist</h1>
       <div className={styles.fullArtist}>
         <div className={styles.halfArtist}>
           <img
             className={styles.photo1}
-            src="/images/photo1.png"
+            src="/images/photo1.svg"
             alt="monkey NFT"
           />
           <img
             className={styles.photo2}
-            src="/images/photo2.png"
+            src="/images/photo2.svg"
             alt="monkey NFT"
           />
           <img
             className={styles.photo3}
-            src="/images/photo3.png"
+            src="/images/photo3.svg"
             alt="monkey NFT"
           />
         </div>

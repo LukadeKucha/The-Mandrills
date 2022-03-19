@@ -27,6 +27,13 @@ a {
   text-decoration: none;
 }
 
+.homeSectionTitle {
+  font-size: 3rem;
+  line-height: 3rem;
+  text-decoration: underline;
+  text-shadow: -10px -12px 7px rgba(255, 255, 255, 0.5);
+}
+
 @media (max-width: 1200px) {
   :root {
     font-size: 13px;

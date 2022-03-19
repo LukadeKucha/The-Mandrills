@@ -4,7 +4,7 @@ import InvisibleText from "../invisible-text-component";
 function RoadMapSection() {
   return (
     <div className={styles.roadMapSection}>
-      <h1 className={styles.roadMapTitle}>Road Map</h1>
+      <h1 className={`homeSectionTitle ${styles.roadMapTitle}`}>Road Map</h1>
       <div className={styles.textsWrapper}>
         <InvisibleText
           beforeHover="Goals"

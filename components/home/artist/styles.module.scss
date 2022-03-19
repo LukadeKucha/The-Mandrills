@@ -4,10 +4,7 @@
   // margin-bottom: 150px;
 
   .artistTitle {
-    font-size: 3rem;
-    line-height: 3rem;
-    text-decoration: underline;
-    text-shadow: -10px -12px 7px rgba(255, 255, 255, 0.5);
+    margin-top: 20vh;
   }
 
   .fullArtist {
@@ -20,13 +17,15 @@
       position: relative;
 
       img {
-        max-width: 8.75rem;
-        max-height: 8.75rem;
+        max-width: 15rem;
+        max-height: 15rem;
       }
       .photo1 {
+        height: 240px;
+        width: 240px;
         position: absolute;
-        top: 0;
-        left: 0;
+        top: 28%;
+        left: 10%;
       }
       .photo2 {
         position: absolute;

@@ -2,7 +2,6 @@ import Head from "next/head";
 
 import styles from "./styles.module.scss";
 
-import HomeFooter from "../../components/home/footer";
 import HomeNavbar from "../../components/home/navbar";
 import ArtistSection from "../../components/home/artist";
 import RoadMapSection from "../../components/home/road-map";
@@ -22,7 +21,6 @@ function HomePage() {
         <WildNetworkSection />
         <FaqSection />
       </div>
-      <HomeFooter />
     </div>
   );
 }
