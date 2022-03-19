@@ -25,14 +25,16 @@ function ArtistSection() {
         </div>
 
         <div className={styles.halfArtist}>
-          <p className={styles.artistText}>
-            This collection is currently handmade and every detail is created
-            according to the design. The illustrations are specific to the
-            wildlife
-          </p>
           <InvisibleText
             beforeHover="History"
-            size={{ width: "22.5rem", height: "20rem", paddingLeft: "45px" }}
+            style={{
+              width: "35rem",
+              height: "30rem",
+              fontSize: "1.5rem",
+              lineHeight: "1.5rem",
+              paddingLeft: "60px",
+              paddingRight: "1.5rem",
+            }}
             bgi={"/images/historyBg.png"}
           >
             For centuries, serenity reigned in nature. The MANDRILLS were

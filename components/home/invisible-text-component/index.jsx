@@ -1,10 +1,10 @@
 import styles from "./styles.module.scss";
 
-function InvisibleText({ children, beforeHover, size, bgi }) {
+function InvisibleText({ children, beforeHover, style, bgi }) {
   const wrapperStyle = bgi
-    ? { ...size, backgroundImage: `url(${bgi})` }
+    ? { ...style, backgroundImage: `url(${bgi})` }
     : {
-        ...size,
+        ...style,
         background: "rgba(0, 0, 0, 0.7)",
         border: "0.375rem solid #15156f",
         boxShadow: "inset 12px 11px 6px rgba(0, 0, 0, 0.25)",

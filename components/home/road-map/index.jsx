@@ -8,7 +8,7 @@ function RoadMapSection() {
       <div className={styles.textsWrapper}>
         <InvisibleText
           beforeHover="Goals"
-          size={{ width: "38rem", height: "29rem" }}
+          style={{ width: "38rem", height: "29rem" }}
           bgi={"/images/goalsBg.png"}
         >
           <ul>
@@ -32,7 +32,7 @@ function RoadMapSection() {
         </InvisibleText>
         <InvisibleText
           beforeHover="Financial Activisions"
-          size={{ width: "38rem", height: "29rem" }}
+          style={{ width: "38rem", height: "29rem" }}
         >
           <ul>
             <li>10% #slavaukraina goes to charity foundation of ukraine</li>

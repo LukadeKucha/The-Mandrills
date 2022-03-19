@@ -1,50 +1,41 @@
 .artistWrapper {
   text-align: center;
   width: 100%;
-  // margin-bottom: 150px;
+  height: 895px;
 
   .artistTitle {
     margin-top: 20vh;
   }
 
   .fullArtist {
-    // height: 31.6rem;
     display: flex;
     justify-content: space-between;
 
     .halfArtist {
       width: 48%;
+      height: 45rem;
       position: relative;
 
+      display: flex;
+      align-items: center;
+
       img {
-        max-width: 15rem;
-        max-height: 15rem;
+        width: 15rem;
+        height: 15rem;
+        position: absolute;
       }
       .photo1 {
-        height: 240px;
-        width: 240px;
-        position: absolute;
-        top: 28%;
-        left: 10%;
+        top: 0;
+        left: 0;
       }
       .photo2 {
-        position: absolute;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
       }
       .photo3 {
-        position: absolute;
         right: 0;
         bottom: 0;
-      }
-
-      .artistText {
-        font-size: 1.5rem;
-        line-height: 1.5rem;
-        text-align: left;
-        width: 30rem;
-        margin: 0 0 5.5rem;
       }
     }
   }
