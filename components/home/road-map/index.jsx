@@ -1,12 +1,12 @@
 import styles from "./styles.module.scss";
-import UnvisibleText from "../invisible-text-component";
+import InvisibleText from "../invisible-text-component";
 
 function RoadMapSection() {
   return (
     <div className={styles.roadMapSection}>
       <h1 className={styles.roadMapTitle}>Road Map</h1>
       <div className={styles.textsWrapper}>
-        <UnvisibleText
+        <InvisibleText
           beforeHover="Goals"
           size={{ width: "38rem", height: "29rem" }}
           bgi={"/images/goalsBg.png"}
@@ -29,8 +29,8 @@ function RoadMapSection() {
               to metaverse
             </li>
           </ul>
-        </UnvisibleText>
-        <UnvisibleText
+        </InvisibleText>
+        <InvisibleText
           beforeHover="Financial Activisions"
           size={{ width: "38rem", height: "29rem" }}
         >
@@ -58,7 +58,7 @@ function RoadMapSection() {
               conquer the market
             </li>
           </ul>
-        </UnvisibleText>
+        </InvisibleText>
       </div>
     </div>
   );

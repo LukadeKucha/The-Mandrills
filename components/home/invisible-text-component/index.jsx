@@ -1,6 +1,6 @@
 import styles from "./styles.module.scss";
 
-function UnvisibleText({ children, beforeHover, size, bgi }) {
+function InvisibleText({ children, beforeHover, size, bgi }) {
   const wrapperStyle = bgi
     ? { ...size, backgroundImage: `url(${bgi})` }
     : {
@@ -19,4 +19,4 @@ function UnvisibleText({ children, beforeHover, size, bgi }) {
   );
 }
 
-export default UnvisibleText;
+export default InvisibleText;

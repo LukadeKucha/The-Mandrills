@@ -1,4 +1,4 @@
-import UnvisibleText from "../invisible-text-component";
+import InvisibleText from "../invisible-text-component";
 import styles from "./styles.module.scss";
 
 function ArtistSection() {
@@ -30,7 +30,7 @@ function ArtistSection() {
             according to the design. The illustrations are specific to the
             wildlife
           </p>
-          <UnvisibleText
+          <InvisibleText
             beforeHover="History"
             size={{ width: "22.5rem", height: "20rem", paddingLeft: "45px" }}
             bgi={"/images/historyBg.png"}
@@ -41,7 +41,7 @@ function ArtistSection() {
             This is a community, whose team will lead this project also be in
             the metaverse worlds and will have its cryptocurrency which, will
             lead to many challenges in THE FUTURE.
-          </UnvisibleText>
+          </InvisibleText>
         </div>
       </div>
     </div>
