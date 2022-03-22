@@ -3,7 +3,9 @@ import styles from "./styles.module.scss";
 
 function ArtistSection() {
   return (
+    
     <div className={styles.artistWrapper}>
+      
       <h1 className={`homeSectionTitle ${styles.artistTitle}`}>Artist</h1>
       <div className={styles.fullArtist}>
         <div className={styles.halfArtist}>
@@ -27,7 +29,7 @@ function ArtistSection() {
         <div className={styles.halfArtist}>
           <InvisibleText
             beforeHover="History"
-            style={{
+            style={{              
               width: "35rem",
               height: "30rem",
               fontSize: "1.5rem",
@@ -46,6 +48,7 @@ function ArtistSection() {
           </InvisibleText>
         </div>
       </div>
+      <div className="raw"></div>
     </div>
   );
 }

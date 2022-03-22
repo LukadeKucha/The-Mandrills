@@ -37,7 +37,7 @@ function FaqSection() {
           among others. We&apos;ll share more information about opportunities to
           gain WL spots through official Discord channels.
         </p>
-      </div>
+      </div>      
     </div>
   );
 }

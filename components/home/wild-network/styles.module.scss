@@ -8,9 +8,14 @@
   align-items: center;
 
   .networkTitle {
-    margin-bottom: 115px;
+    margin-bottom: 7rem;
   }
   div {
     padding: 0 110px 0 100px;
+  }
+  @media only screen and (max-width:600px){
+    .networkSection{
+      height: 400px;
+    }
   }
 }

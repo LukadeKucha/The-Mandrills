@@ -17,6 +17,7 @@ function WildNetworkSection() {
         and games will be created that will satisfy the interest of people in
         the future.
       </InvisibleText>
+      <div className="raw"></div>
     </div>
   );
 }
