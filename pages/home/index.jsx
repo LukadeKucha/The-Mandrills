@@ -16,12 +16,12 @@ function HomePage() {
       </Head>
       <HomeNavbar />
       <div className={styles.backgroundSection}>
-        {/* <div className={styles.bphoto}> */}
-        <ArtistSection />
-        <RoadMapSection />
-        <WildNetworkSection />
-        <FaqSection />
-        {/* </div> */}
+        <div className={styles.bphoto}>
+          <ArtistSection />
+          <RoadMapSection />
+          <WildNetworkSection />
+          <FaqSection />
+        </div>
       </div>
     </div>
   );

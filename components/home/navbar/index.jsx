@@ -21,8 +21,8 @@ function HomeNavbar() {
           <button>WN</button>
           <button>FAQ</button>
         </div>
-      </div>           
-    </div>     
+      </div>
+    </div>
   );
 }
 
