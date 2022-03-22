@@ -1,4 +1,4 @@
-import InvisibleText from "../invisible-text-component";
+import InvisibleText from "../../invisible-text-component";
 import styles from "./styles.module.scss";
 
 function ArtistSection() {

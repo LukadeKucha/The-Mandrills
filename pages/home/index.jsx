@@ -2,7 +2,7 @@ import Head from "next/head";
 
 import styles from "./styles.module.scss";
 
-import HomeNavbar from "../../components/home/navbar";
+import Navbar from "../../components/navbar";
 import ArtistSection from "../../components/home/artist";
 import RoadMapSection from "../../components/home/road-map";
 import WildNetworkSection from "../../components/home/wild-network";
@@ -14,14 +14,14 @@ function HomePage() {
       <Head>
         <title>the mandrills - home</title>
       </Head>
-      <HomeNavbar />
-      <div className={styles.backgroundSection}>
-        <div className={styles.bphoto}>
-          <ArtistSection />
-          <RoadMapSection />
-          <WildNetworkSection />
-          <FaqSection />
-        </div>
+      <Navbar />
+      <div className={styles.backgroundPhoto}>
+        {/* <div className={styles.sectionsWrapper}> */}
+        <ArtistSection />
+        <RoadMapSection />
+        <WildNetworkSection />
+        <FaqSection />
+        {/* </div> */}
       </div>
     </div>
   );

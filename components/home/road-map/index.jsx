@@ -1,5 +1,5 @@
 import styles from "./styles.module.scss";
-import InvisibleText from "../invisible-text-component";
+import InvisibleText from "../../invisible-text-component";
 
 function RoadMapSection() {
   return (
