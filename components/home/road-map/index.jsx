@@ -3,8 +3,9 @@ import InvisibleText from "../invisible-text-component";
 
 function RoadMapSection() {
   return (
-    <div className={styles.roadMapSection}>
+    <div className={`homeSection ${styles.roadMapSection}`}>
       <h1 className={`homeSectionTitle ${styles.roadMapTitle}`}>Road Map</h1>
+
       <div className={styles.textsWrapper}>
         <InvisibleText
           beforeHover="Goals"
@@ -30,6 +31,7 @@ function RoadMapSection() {
             </li>
           </ul>
         </InvisibleText>
+
         <InvisibleText
           beforeHover="Financial Activisions"
           style={{ width: "38rem", height: "29rem" }}
@@ -60,7 +62,8 @@ function RoadMapSection() {
           </ul>
         </InvisibleText>
       </div>
-      <div className="raw"></div>
+
+      <div className="horizontalLine" />
     </div>
   );
 }

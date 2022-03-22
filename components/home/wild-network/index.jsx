@@ -3,7 +3,7 @@ import styles from "./styles.module.scss";
 
 function WildNetworkSection() {
   return (
-    <div className={styles.networkSection}>
+    <div className={`homeSection ${styles.networkSection}`}>
       <h1 className={`homeSectionTitle ${styles.networkTitle}`}>
         Wild Network
       </h1>
@@ -17,7 +17,7 @@ function WildNetworkSection() {
         and games will be created that will satisfy the interest of people in
         the future.
       </InvisibleText>
-      <div className="raw"></div>
+      <div className="horizontalLine" />
     </div>
   );
 }

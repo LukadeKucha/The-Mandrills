@@ -2,10 +2,12 @@ import styles from "./styles.module.scss";
 
 function FaqSection() {
   return (
-    <div className={styles.faqSection}>
+    <div className={`homeSection ${styles.faqSection}`}>
       <h1 className={`homeSectionTitle ${styles.faqTitle}`}>FAQ</h1>
+
       <div className={styles.textWrapper}>
         <h3>FAQ</h3>
+
         {/* FIXME დებილურად ჩავწერე ერთ pთაგში. დაყოფა კარგი იქნება. */}
         <p>
           The Mandrills?! What`s that? <br />
@@ -37,7 +39,7 @@ function FaqSection() {
           among others. We&apos;ll share more information about opportunities to
           gain WL spots through official Discord channels.
         </p>
-      </div>      
+      </div>
     </div>
   );
 }

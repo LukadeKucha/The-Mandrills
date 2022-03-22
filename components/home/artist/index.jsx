@@ -3,7 +3,7 @@ import styles from "./styles.module.scss";
 
 function ArtistSection() {
   return (
-    <div className={styles.artistWrapper}>
+    <div className={`homeSection ${styles.artistWrapper}`}>
       <h1 className={`homeSectionTitle ${styles.artistTitle}`}>Artist</h1>
 
       <div className={styles.fullArtist}>
@@ -47,7 +47,7 @@ function ArtistSection() {
           </InvisibleText>
         </div>
       </div>
-      <div className="raw" />
+      <div className="horizontalLine" />
     </div>
   );
 }

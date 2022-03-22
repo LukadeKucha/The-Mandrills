@@ -1,6 +1,6 @@
 .networkSection {
   width: 100%;
-  height: 1095px;
+  // height: 1095px;
 
   display: flex;
   flex-direction: column;
@@ -13,8 +13,8 @@
   div {
     padding: 0 110px 0 100px;
   }
-  @media only screen and (max-width:600px){
-    .networkSection{
+  @media only screen and (max-width: 600px) {
+    .networkSection {
       height: 400px;
     }
   }

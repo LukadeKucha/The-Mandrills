@@ -27,28 +27,35 @@ a {
   text-decoration: none;
 }
 
-.homeSectionTitle {
-  font-size: 3rem;
-  line-height: 3rem;
-  text-decoration: underline;
-  text-shadow: -10px -12px 7px rgba(255, 255, 255, 0.5);
-}
-.raw {
-  margin-top: 3vh;
-  height: 1px;
-  width: 100vw;
-  background-color: white;
-  display: none;
+.homeSection {
+  margin-top: 5.5rem;
+
+  .homeSectionTitle {
+    font-size: 3rem;
+    line-height: 3rem;
+    text-decoration: underline;
+    text-shadow: -10px -12px 7px rgba(255, 255, 255, 0.5);
+  }
+  .horizontalLine {
+    width: 100vw;
+    height: 1px;
+    background-color: white;
+    margin-top: 5.5rem;
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 1499px) {
-  .homeSectionTitle {
-    color: wheat;
-    text-shadow: none;
-  }
-  .raw {
-    display: block;
-    margin-top: 10vh;
+  .homeSection {
+    .homeSectionTitle {
+      color: wheat;
+      // XXX ეს რატომ გაუქრე?
+      text-shadow: none;
+    }
+    .horizontalLine {
+      display: block;
+      margin-top: 10vh;
+    }
   }
 }
 
