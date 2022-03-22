@@ -1,17 +1,15 @@
 .artistWrapper {
-  text-align: center;
   width: 100%;
-  height: 56rem;
-  // display:flex;
-  // flex-direction: column;
-  // align-items: center;
-
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 
   .artistTitle {
-    margin-top: 10vh;
+    margin-top: 7.5rem;
   }
 
   .fullArtist {
+    width: 100%;
     display: flex;
     justify-content: space-between;
 
@@ -22,9 +20,7 @@
 
       display: flex;
       align-items: center;
-      /*responsive */
 
-      @media only screen and (min-width: 1500px) {          
       img {
         width: 15rem;
         height: 15rem;
@@ -44,36 +40,32 @@
         bottom: 0;
       }
     }
-
-    @media only screen and (max-width: 1499px) {   
-      .styles_textWrapper__iojrd {
-        margin-top: 8vh;
-    }         
-      img {
-        margin-left: 20vh;
-        margin-top: 10vh;
-        width: 11rem;
-        height: 11rem;
-        position: absolute;
-      }
-      .photo1 {
-        top: 0;
-        left: 0;
-      }
-      .photo2 {
-        top: 25%;
-        left: 0;       
-      }
-      .photo3 {
-        left: 0;
-        top: 50%;
-      }
-    }
   }
 }
-@media only screen and (max-width:1000px){
-  .artistWrapper{
+
+@media only screen and (max-width: 1499px) {
+  //   img {
+  //     margin-left: 20vh;
+  //     margin-top: 10vh;
+  //     width: 11rem;
+  //     height: 11rem;
+  //     position: absolute;
+  //   }
+  //   .photo1 {
+  //     top: 0;
+  //     left: 0;
+  //   }
+  //   .photo2 {
+  //     top: 25%;
+  //     left: 0;
+  //   }
+  //   .photo3 {
+  //     left: 0;
+  //     top: 50%;
+  //   }
+}
+@media only screen and (max-width: 1000px) {
+  .artistWrapper {
     height: 750px;
-}
-}
+  }
 }
