@@ -21,6 +21,11 @@ function HomeNavbar() {
           <button>WN</button>
           <button>FAQ</button>
         </div>
+
+        <div className={styles.column}>
+          <button>TMMS</button>
+          <button>“The Mandrill Game”</button>
+        </div>
       </div>
     </div>
   );
