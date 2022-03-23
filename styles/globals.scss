@@ -73,3 +73,16 @@ a {
     font-size: 5px;
   }
 }
+
+/* Scrollbar */
+body::-webkit-scrollbar {
+	width: .4rem !important;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+	background-color: #3647e7  !important;
+  }
+  
+  body::-webkit-scrollbar-track {
+	background: #1E1E1E !important;
+  }
