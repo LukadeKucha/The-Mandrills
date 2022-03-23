@@ -1,12 +1,12 @@
 import Image from "next/image";
-
+import Link from "next/link";
 import styles from "./styles.module.scss";
 
 function HomeNavbar() {
   return (
     <div className={styles.navbarWrapper}>
       <div className={styles.logoWrapper}>
-        <Image src="/images/logo.png" alt="logo" width={142} height={142} />
+      <a href="/"><Image src="/images/logo.png" alt="logo" width={142} height={142} /> </a>
 
         <div className={styles.companyName}>
           <div>THE</div>
@@ -16,15 +16,15 @@ function HomeNavbar() {
 
       <div className={styles.sectionsList}>
         <div className={styles.column}>
-          <a href="#NFT's">NFT’S</a>
-          <a href="#Roadmap">ROADMAP</a>
-          <a href="#Wild Network">WN</a>
-          <a href="#FAQ">FAQ</a>
+        <Link href="/home#NFT's"><button>NFT's</button></Link>
+        <Link href="/home#Roadmap"><button>ROADMAP</button></Link>
+        <Link href="/home#Wild Network"><button>WILD NETWORK</button></Link>
+        <Link href="/home#FAQ"><button>FAQ</button></Link>
         </div>
 
         <div className={styles.column}>
-          <a id="tmms">TMMS</a>
-          <a>“The Mandrill Game”</a>
+          <Link href="/tmms"><button>TMMS</button></Link>
+          <Link href="/tmg"><button>“The Mandrill Game”</button></Link>
         </div>
       </div>
     </div>
