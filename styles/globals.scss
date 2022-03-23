@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Aldrich&display=swap");
-
+html{
+  scroll-behavior: smooth;
+}
 :root {
   --bgc: black;
   font-size: 16px;
@@ -45,19 +47,6 @@ a {
   }
 }
 
-@media only screen and (max-width: 1499px) {
-  .homeSection {
-    .homeSectionTitle {
-      color: wheat;
-      // XXX ეს რატომ გაუქრე?
-      text-shadow: none;
-    }
-    .horizontalLine {
-      display: block;
-      margin-top: 10vh;
-    }
-  }
-}
 
 @media (max-width: 1200px) {
   :root {

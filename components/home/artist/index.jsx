@@ -3,8 +3,8 @@ import styles from "./styles.module.scss";
 
 function ArtistSection() {
   return (
-    <div className={`homeSection ${styles.artistWrapper}`}>
-      <h1 className={`homeSectionTitle ${styles.artistTitle}`}>Artist</h1>
+    <div  className={`homeSection ${styles.artistWrapper}`}>
+      <h1 className={`homeSectionTitle ${styles.artistTitle}`} id="NFT's">NFT's</h1>
 
       <div className={styles.fullArtist}>
         <div className={styles.halfArtist}>
@@ -46,8 +46,7 @@ function ArtistSection() {
             lead to many challenges in THE FUTURE.
           </InvisibleText>
         </div>
-      </div>
-      <div className="horizontalLine" />
+      </div>     
     </div>
   );
 }

@@ -4,7 +4,7 @@ import styles from "./styles.module.scss";
 function WildNetworkSection() {
   return (
     <div className={`homeSection ${styles.networkSection}`}>
-      <h1 className={`homeSectionTitle ${styles.networkTitle}`}>
+      <h1 id="Wild Network" className={`homeSectionTitle ${styles.networkTitle}`}>
         Wild Network
       </h1>
       <InvisibleText
@@ -16,8 +16,7 @@ function WildNetworkSection() {
         and become an advanced company on the market. over time, applications
         and games will be created that will satisfy the interest of people in
         the future.
-      </InvisibleText>
-      <div className="horizontalLine" />
+      </InvisibleText>     
     </div>
   );
 }

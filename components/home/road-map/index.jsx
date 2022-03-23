@@ -4,7 +4,7 @@ import InvisibleText from "../../invisible-text-component";
 function RoadMapSection() {
   return (
     <div className={`homeSection ${styles.roadMapSection}`}>
-      <h1 className={`homeSectionTitle ${styles.roadMapTitle}`}>Road Map</h1>
+      <h1 id="Roadmap" className={`homeSectionTitle ${styles.roadMapTitle}`}>Road Map</h1>
 
       <div className={styles.textsWrapper}>
         <InvisibleText
@@ -61,9 +61,7 @@ function RoadMapSection() {
             </li>
           </ul>
         </InvisibleText>
-      </div>
-
-      <div className="horizontalLine" />
+      </div>   
     </div>
   );
 }

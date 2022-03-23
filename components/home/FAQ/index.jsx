@@ -3,7 +3,7 @@ import styles from "./styles.module.scss";
 function FaqSection() {
   return (
     <div className={`homeSection ${styles.faqSection}`}>
-      <h1 className={`homeSectionTitle ${styles.faqTitle}`}>FAQ</h1>
+      <h1 id="FAQ" className={`homeSectionTitle ${styles.faqTitle}`}>FAQ</h1>
 
       <div className={styles.textWrapper}>
         <h3>FAQ</h3>
