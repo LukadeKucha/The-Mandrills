@@ -1,4 +1,4 @@
-import HomeNavbar from "../../components/home/navbar";
+import HomeNavbar from "../../components/navbar";
 import styles from "./styles.module.scss";
 
 function tmgPage(){
