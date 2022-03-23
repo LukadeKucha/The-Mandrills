@@ -3,8 +3,10 @@ import styles from "./styles.module.scss";
 
 function ArtistSection() {
   return (
-    <div  className={`homeSection ${styles.artistWrapper}`}>
-      <h1 className={`homeSectionTitle ${styles.artistTitle}`} id="NFT's">NFT's</h1>
+    <div className={`homeSection ${styles.artistWrapper}`}>
+      <h1 className={`homeSectionTitle ${styles.artistTitle}`} id="NFT's">
+        NFT&apos;s
+      </h1>
 
       <div className={styles.fullArtist}>
         <div className={styles.halfArtist}>
@@ -33,7 +35,7 @@ function ArtistSection() {
               height: "30rem",
               fontSize: "1.5rem",
               lineHeight: "1.5rem",
-              paddingLeft: "60px",
+              paddingLeft: "3.75rem",
               paddingRight: "1.5rem",
             }}
             bgi={"/images/historyBg.png"}
@@ -46,7 +48,7 @@ function ArtistSection() {
             lead to many challenges in THE FUTURE.
           </InvisibleText>
         </div>
-      </div>     
+      </div>
     </div>
   );
 }

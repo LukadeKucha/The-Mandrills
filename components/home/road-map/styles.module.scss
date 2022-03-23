@@ -15,15 +15,11 @@
 
     div {
       ul {
+        padding: 0 0.625rem 0 2.5rem;
         li {
           &:not(:last-child) {
             margin-bottom: 1rem;
           }
-        }
-      }
-      &:not(:last-child) {
-        ul {
-          padding-right: 0.625rem;
         }
       }
     }
@@ -37,7 +33,7 @@
   .styles_faqSection__He_pk .styles_faqTitle__URs_j {
     margin-top: -10vh;
     text-align: center;
-    margin-bottom: 140px;
+    margin-bottom: 8.75rem;
   }
   @media only screen and (max-width: 1000px) {
     .textsWrapper {

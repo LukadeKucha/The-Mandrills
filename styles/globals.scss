@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Aldrich&display=swap");
-html{
+html {
   scroll-behavior: smooth;
 }
 :root {
@@ -47,7 +47,6 @@ a {
   }
 }
 
-
 @media (max-width: 1200px) {
   :root {
     font-size: 13px;
@@ -76,13 +75,13 @@ a {
 
 /* Scrollbar */
 body::-webkit-scrollbar {
-	width: .4rem !important;
-  }
-  
-  body::-webkit-scrollbar-thumb {
-	background-color: #3647e7  !important;
-  }
-  
-  body::-webkit-scrollbar-track {
-	background: #1E1E1E !important;
-  }
+  width: 0.4rem !important;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #3647e7 !important;
+}
+
+body::-webkit-scrollbar-track {
+  background: #1e1e1e !important;
+}
