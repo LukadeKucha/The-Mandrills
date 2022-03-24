@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { slide as Menu } from "react-burger-menu";
 import styles from "./styles.module.scss";
 
 function HomeNavbar() {
@@ -41,6 +42,30 @@ function HomeNavbar() {
           </Link>
         </div>
       </div>
+
+      <Menu width={"40%"} right>
+        <div className={styles.hamburgerMenuList}>
+          <Link href="/home#NFT's">
+            <button>NFT&apos;s</button>
+          </Link>
+          <Link href="/home#Roadmap">
+            <button>ROADMAP</button>
+          </Link>
+          <Link href="/home#Wild-Network">
+            <button>WILD NETWORK</button>
+          </Link>
+          <Link href="/home#FAQ">
+            <button>FAQ</button>
+          </Link>
+
+          <Link href="/tmms">
+            <button>TMMS</button>
+          </Link>
+          <Link href="/tmg">
+            <button>“The Mandrill Game”</button>
+          </Link>
+        </div>
+      </Menu>
     </div>
   );
 }
