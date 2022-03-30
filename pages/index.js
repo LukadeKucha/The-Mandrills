@@ -1,7 +1,9 @@
+/* eslint-disable jsx-a11y/media-has-caption */
 import Link from "next/link";
 import Image from "next/image";
-import styles from "/styles/welcome.module.scss";
+// import ReactPlayer from "react-player";
 
+import styles from "/styles/welcome.module.scss";
 import Head from "next/head";
 
 const WelcomePage = () => {
@@ -31,12 +33,9 @@ const WelcomePage = () => {
         </div>
 
         <div className={styles.mandrillsGif}>
-          <Image
-            src="/images/gif.png"
-            alt="mandrils gif"
-            width={275}
-            height={315}
-          />
+          <video autoPlay loop muted>
+            <source src="/videos/Untitled.webm" type="video/mp4" />
+          </video>
         </div>
       </div>
 

@@ -95,9 +95,10 @@
     display: flex;
     justify-content: center;
 
-    img {
+    video {
       max-width: 17rem;
       max-height: 19.5rem;
+      border-radius: 3rem;
     }
   }
 }
