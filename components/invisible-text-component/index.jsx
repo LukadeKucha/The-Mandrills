@@ -14,7 +14,7 @@ function InvisibleText({ children, beforeHover, style, bgi }) {
   return (
     <div className={styles.textWrapper} style={wrapperStyle}>
       <p className={styles.beforeHover}>{beforeHover}</p>
-      <p className={styles.afterHover}>{children}</p>
+      <div className={styles.afterHover}>{children}</div>
     </div>
   );
 }

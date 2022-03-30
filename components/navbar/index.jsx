@@ -35,7 +35,7 @@ function HomeNavbar() {
 
         <div className={styles.column}>
           <Link href="/tmms">
-            <button>TMMS</button>
+            <button>The Mandrill Network</button>
           </Link>
           <Link href="/tmg">
             <button>“The Mandrill Game”</button>

@@ -35,8 +35,8 @@ function ArtistSection() {
               height: "30rem",
               fontSize: "1.5rem",
               lineHeight: "1.5rem",
-              paddingLeft: "3.75rem",
-              paddingRight: "1.5rem",
+              paddingLeft: "4rem",
+              paddingRight: "2rem",
             }}
             bgi={"/images/historyBg.png"}
           >
