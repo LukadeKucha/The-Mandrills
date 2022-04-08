@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Aldrich&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+:root {
+  --bgc: black;
+  font-size: 16px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+  font-family: "Aldrich";
+  scroll-behavior: smooth;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.homeSection {
+  margin-top: 5.5rem;
+
+  .homeSectionTitle {
+    font-size: 3rem;
+    line-height: 3rem;
+    text-decoration: underline;
+    text-shadow: -0.9rem -0.75rem 0.45rem rgba(255, 255, 255, 0.3);
+  }
+  .horizontalLine {
+    width: 100vw;
+    height: 1px;
+    background-color: white;
+    margin-top: 5.5rem;
+    display: none;
+  }
+}
+
+/*********************************** hamburger menu ***********************************/
+/* Position and sizing of burger button */
+.bm-burger-button {
+  display: none;
+  width: 3rem;
+  height: 2.5rem;
+  position: absolute;
+  right: 3rem;
+  top: 50%;
+  transform: translateY(-50%);
+}
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: white;
+}
+/* Color/shape of burger icon bars on hover*/
+.bm-burger-bars-hover {
+  background: #bdc3c7;
+}
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #bdc3c7;
+}
+/*
+Sidebar wrapper styles
+Note: Beware of modifying this element as it can break the animations - you should not need to touch it in most cases
+*/
+.bm-menu-wrap {
+  position: fixed;
+  height: 100%;
+}
+/* General sidebar styles */
+.bm-menu {
+  background: #373a47;
+  padding: 3em 1.5em 0;
+  font-size: 1.15em;
+}
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #373a47;
+}
+/* Wrapper for item list */
+.bm-item-list {
+  color: #b8b7ad;
+  padding: 1em;
+}
+/* Individual item */
+.bm-item {
+  display: inline-block;
+}
+/* Styling of overlay */
+.bm-overlay {
+  width: 100vw;
+  background: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  left: 0;
+}
+
+@media (max-width: 1200px) {
+  :root {
+    font-size: 13px;
+  }
+}
+@media (max-width: 1000px) {
+  :root {
+    font-size: 10px;
+  }
+  .bm-burger-button {
+    display: block;
+  }
+}
+@media (max-width: 800px) {
+  :root {
+    font-size: 8px;
+  }
+}
+@media (max-width: 600px) {
+  :root {
+    font-size: 6px;
+  }
+}
+@media (max-width: 400px) {
+  :root {
+    font-size: 5px;
+  }
+}
+
+/* Scrollbar */
+body::-webkit-scrollbar {
+  width: 0.4rem !important;
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: #3647e7 !important;
+}
+
+body::-webkit-scrollbar-track {
+  background: #1e1e1e !important;
+}

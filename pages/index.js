@@ -1,69 +1,74 @@
+/* eslint-disable jsx-a11y/media-has-caption */
 import Link from "next/link";
 import Image from "next/image";
+// import ReactPlayer from "react-player";
 
 import styles from "/styles/welcome.module.scss";
-
-import { BsDiscord, BsTwitter, BsInstagram } from "react-icons/bs";
+import Head from "next/head";
 
 const WelcomePage = () => {
   return (
     <div className={styles.welcomePageWrapper}>
-      <div className={styles.videoSection}>Video Section</div>
+      <Head>
+        <title>the mandrills - welcome</title>
+      </Head>
+
+      {/* TODO Delete style */}
+      <div className={styles.videoSection} style={{ color: "white" }}>
+        Video Section
+      </div>
 
       <div className={styles.photoSection}>
         <div className={styles.forSymmetric}>
-          {/* <h2 className="home-text">
-            TMWN is a collection of 4000 THE MANDRILL NFTs—unique digital
-            collectibles living on the Solana blockchain. Your Mandrills doubles
-            as your WN membership card, and grants access to members-only
-            benefits, the first of which is access to JUNGLE, a collaborative
-            graffiti board. Future areas and perks can be unlocked by the
-            community through roadmap activation.
-          </h2> */}
+          <h1>
+            A limited NFT collection of old world mandrills. Join in and be wild
+            primate with us. You sent
+          </h1>
         </div>
 
-        <div className={styles.joutneyBtnWrapper}>
+        <div className={styles.journeyBtnWrapper}>
           <Link href="/home" passHref>
             <button className={styles.startJoutneyBtn}>Start Journy</button>
           </Link>
         </div>
 
         <div className={styles.mandrillsGif}>
-          <Image
-            src="/images/gif.png"
-            alt="mandrils gif"
-            width={275}
-            height={315}
-          />
+          <video autoPlay loop muted>
+            <source src="/videos/Untitled.webm" type="video/mp4" />
+          </video>
         </div>
-
-        <ul className={styles.sicialIcons}>
-          <li>
-            <Link href="https://discord.gg/tbsBgSct6K" passHref>
-              <a target="_blank" rel="noreferrer">
-                <BsDiscord />
-              </a>
-            </Link>
-          </li>
-          <li>
-            <Link
-              href="https://twitter.com/TheMAndrillsWN?t=cCblJhVkddwLIllEwH9QsQ&s=09"
-              passHref
-            >
-              <a target="_blank" rel="noreferrer">
-                <BsTwitter />
-              </a>
-            </Link>
-          </li>
-          <li>
-            <Link href="https://www.instagram.com/the_mandrilas/" passHref>
-              <a target="_blank" rel="noreferrer">
-                <BsInstagram />
-              </a>
-            </Link>
-          </li>
-        </ul>
       </div>
+
+      <ul className={styles.sicialIcons}>
+        <li>
+          <Link href="https://discord.gg/tbsBgSct6K" passHref>
+            <a target="_blank" rel="noreferrer">
+              <Image src={"/images/discord_icon.svg"} width={25} height={25} />
+            </a>
+          </Link>
+        </li>
+        <li>
+          <Link
+            href="https://twitter.com/TheMAndrillsWN?t=cCblJhVkddwLIllEwH9QsQ&s=09"
+            passHref
+          >
+            <a target="_blank" rel="noreferrer">
+              <Image src={"/images/twitter_icon.svg"} width={25} height={25} />
+            </a>
+          </Link>
+        </li>
+        <li>
+          <Link href="https://www.instagram.com/the_mandrilas/" passHref>
+            <a target="_blank" rel="noreferrer">
+              <Image
+                src={"/images/instagram_icon.svg"}
+                width={25}
+                height={25}
+              />
+            </a>
+          </Link>
+        </li>
+      </ul>
     </div>
   );
 };

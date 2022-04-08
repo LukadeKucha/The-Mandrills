@@ -1,5 +1,6 @@
 import Head from "next/head";
-import "../styles/globals.css";
+import UpArrow from "../components/up-arrow";
+import "../styles/globals.scss";
 
 function MyApp({ Component, pageProps }) {
   return (
@@ -8,6 +9,7 @@ function MyApp({ Component, pageProps }) {
         <title>the mandrills</title>
       </Head>
       <Component {...pageProps} />
+      <UpArrow />
     </>
   );
 }

@@ -1,0 +1,44 @@
+.roadMapSection {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .roadMapTitle {
+  }
+
+  .textsWrapper {
+    width: 100%;
+    margin-top: 7rem;
+    display: flex;
+    justify-content: space-around;
+
+    div {
+      ul {
+        padding: 0 0.625rem 0 2.5rem;
+        li {
+          &:not(:last-child) {
+            margin-bottom: 1rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .styles_roadMapSection__FsQlJ {
+    height: 56rem;
+  }
+  .styles_faqSection__He_pk .styles_faqTitle__URs_j {
+    margin-top: -10vh;
+    text-align: center;
+    margin-bottom: 8.75rem;
+  }
+  @media only screen and (max-width: 1000px) {
+    .textsWrapper {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+}

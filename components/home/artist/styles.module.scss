@@ -1,0 +1,44 @@
+.artistWrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .artistTitle {
+    margin-top: 0;
+  }
+
+  .fullArtist {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    .halfArtist {
+      width: 48%;
+      height: 45rem;
+      position: relative;
+
+      display: flex;
+      align-items: center;
+
+      img {
+        width: 15rem;
+        height: 15rem;
+        position: absolute;
+      }
+      .photo1 {
+        top: 0;
+        left: 0;
+      }
+      .photo2 {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      .photo3 {
+        right: 0;
+        bottom: 0;
+      }
+    }
+  }
+}

@@ -1,2 +1,23 @@
 .HomePageWrapper {
+  width: 100vw;
+  background-color: var(--bgc);
+
+  display: flex;
+  flex-direction: column;
+
+  .backgroundPhoto {
+    background: url("/images/homeBackground.png") no-repeat center top;
+    background-size: cover;
+
+    padding: 0 5%;
+  }
+
+  @media (max-width: 1499px) {
+    // .backgroundPhoto {
+    //   background: none;
+    //   padding: 0 2%;
+    // .sectionsWrapper {
+    // }
+    // }
+  }
 }

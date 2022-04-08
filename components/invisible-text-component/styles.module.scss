@@ -1,0 +1,29 @@
+.textWrapper {
+  color: white;
+  font-size: 1.125rem;
+  line-height: 1.125rem;
+
+  padding: 0 0.5rem;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  z-index: 5;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .afterHover {
+    display: none;
+    padding: 0;
+  }
+
+  &:hover {
+    .beforeHover {
+      display: none;
+    }
+    .afterHover {
+      display: block;
+    }
+  }
+}
