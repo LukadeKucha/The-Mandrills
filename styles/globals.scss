@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Aldrich&display=swap");
+
 html {
   scroll-behavior: smooth;
 }
@@ -8,6 +9,7 @@ html {
 }
 
 * {
+  font-family: "Aldrich";
   box-sizing: border-box;
 }
 
@@ -16,12 +18,12 @@ body {
   height: 100vh;
   padding: 0;
   margin: 0;
-  font-family: "Aldrich";
   scroll-behavior: smooth;
+  overflow-x: hidden;
+
   display: flex;
   flex-direction: column;
   align-items: center;
-  overflow-x: hidden;
 }
 
 a {
