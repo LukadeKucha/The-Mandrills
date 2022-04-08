@@ -28,13 +28,14 @@ const WelcomePage = () => {
 
         <div className={styles.journeyBtnWrapper}>
           <Link href="/home" passHref>
+            {/* FIXME hoverის ეფექტი არ მომწონს */}
             <button className={styles.startJoutneyBtn}>Start Journy</button>
           </Link>
         </div>
 
         <div className={styles.mandrillsGif}>
           <video autoPlay loop muted>
-            <source src="/videos/Untitled.webm" type="video/mp4" />
+            <source src="/videos/welcomeGif.webm" type="video/mp4" />
           </video>
         </div>
       </div>
