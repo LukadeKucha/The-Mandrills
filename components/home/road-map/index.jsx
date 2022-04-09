@@ -4,12 +4,14 @@ import InvisibleText from "../../invisible-text-component";
 function RoadMapSection() {
   return (
     <div className={`homeSection ${styles.roadMapSection}`}>
-      <h1 id="Roadmap" className={`homeSectionTitle ${styles.roadMapTitle}`}>Road Map</h1>
+      <h1 id="Roadmap" className={`homeSectionTitle ${styles.roadMapTitle}`}>
+        Road Map
+      </h1>
 
       <div className={styles.textsWrapper}>
         <InvisibleText
           beforeHover="Goals"
-          style={{ width: "38rem", height: "29rem" }}
+          style={{ width: "38rem", height: "29rem", paddingRight: "1.875rem" }}
           bgi={"/images/goalsBg.png"}
         >
           <ul>
@@ -61,7 +63,7 @@ function RoadMapSection() {
             </li>
           </ul>
         </InvisibleText>
-      </div>   
+      </div>
     </div>
   );
 }
